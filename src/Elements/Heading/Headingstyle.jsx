@@ -7,16 +7,16 @@ export const Wrapper = styled.div`
 
   /* 
   MEDIA QUERIES DESKTOP FIRST */
-  @media only screen and (max-width: 600px) {
+  @media (min-width: 320px) and (max-width: 480px) {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
 
-    p {
+    .heroleft p {
       /* font-family: "pp-telegraf", sans-serif; */
       font-family: "Roboto", sans-serif;
-      font-size: 45px;
+      font-size: 25px;
       line-height: 83px;
       font-weight: 200;
       margin-top: 20px;
@@ -39,7 +39,7 @@ export const Container = styled.div`
     width: 50%;
   }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 480px) {
     display: flex;
     flex-direction: column;
 
