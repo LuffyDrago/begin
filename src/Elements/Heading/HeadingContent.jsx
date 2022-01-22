@@ -27,6 +27,7 @@ const Heading = () => {
           <div className="heroright">
             <div className="image-icon">
               <Lottie
+                className="lotta"
                 options={defaultOptions}
                 height={400}
                 width={400}
