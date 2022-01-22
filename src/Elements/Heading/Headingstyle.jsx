@@ -22,6 +22,14 @@ export const Wrapper = styled.div`
       margin-top: 20px;
       margin-bottom: 10px;
     }
+    .heroright {
+      width: 100% !important;
+    }
+    .image-icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
   }
 `;
 
