@@ -82,7 +82,7 @@ export const ContainerTwo = styled.div`
     display: flex;
     align-self: flex-start;
     justify-content: center;
-    line-height: 40px;
+
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-size: 45px;
@@ -120,7 +120,7 @@ export const ContainerThree = styled.div`
     display: flex;
     align-self: flex-start;
     justify-content: center;
-    line-height: 40px;
+
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-size: 45px;
@@ -158,7 +158,7 @@ export const ContainerFive = styled.div`
     display: flex;
     align-self: flex-start;
     justify-content: center;
-    line-height: 40px;
+
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-size: 45px;
@@ -196,7 +196,7 @@ export const ContainerSix = styled.div`
     display: flex;
     align-self: flex-start;
     justify-content: center;
-    line-height: 40px;
+
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-size: 45px;
@@ -234,7 +234,7 @@ export const ContainerSeven = styled.div`
     display: flex;
     align-self: flex-start;
     justify-content: center;
-    line-height: 40px;
+
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-size: 45px;

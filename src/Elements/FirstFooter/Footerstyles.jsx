@@ -9,9 +9,67 @@ export const MainFooter = styled.div`
 
 export const InnerFooter = styled.div`
   padding: 170px 32px 100px;
+  /* MEDIA QUERIES DESKTOP FIRST */
+  @media (min-width: 320px) and (max-width: 480px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+    .heroright {
+      width: 100% !important;
+    }
+    .heroleft {
+      width: 100% !important;
+    }
+
+    .heroleft p {
+      /* font-family: "pp-telegraf", sans-serif; */
+      font-family: "Roboto", sans-serif;
+      font-size: 25px;
+      line-height: 83px;
+      font-weight: 200;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+    /* .heroright {
+      width: 100% !important;
+    } */
+    .image-icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
 `;
 
 export const Container = styled.div`
+  /* MEDIA QUERIES DESKTOP FIRST */
+  @media (min-width: 320px) and (max-width: 480px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+    .heroleft p {
+      /* font-family: "pp-telegraf", sans-serif; */
+      font-family: "Roboto", sans-serif;
+      font-size: 25px;
+      line-height: 83px;
+      font-weight: 200;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+
+    /* .heroright {
+      width: 100% !important;
+    } */
+    .image-icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
   width: 90%;
   object-fit: contain;
   margin-right: auto;

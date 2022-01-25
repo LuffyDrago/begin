@@ -31,6 +31,31 @@ export const Wrapper = styled.div`
       align-items: center;
     }
   }
+
+  @media (min-width: 481px) and (max-width: 767px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+    .heroleft p {
+      /* font-family: "pp-telegraf", sans-serif; */
+      font-family: "Roboto", sans-serif;
+      font-size: 25px;
+      line-height: 83px;
+      font-weight: 200;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+    /* .heroright {
+      width: 100% !important;
+    }
+    .image-icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    } */
+  }
 `;
 
 export const Container = styled.div`
@@ -48,6 +73,7 @@ export const Container = styled.div`
   }
 
   @media only screen and (max-width: 480px) {
+    //@media (min-width: 481px) and (max-width: 767px) {
     display: flex;
     flex-direction: column;
 
@@ -57,7 +83,20 @@ export const Container = styled.div`
       width: 100%;
     }
   }
+  @media (min-width: 481px) and (max-width: 767px) {
+    display: flex;
+    flex-direction: column;
 
+    justify-content: center;
+    align-content: center;
+    .heroleft {
+      width: 100%;
+    }
+
+    .heroright {
+      width: 100%;
+    }
+  }
   /* @media only screen and (max-width: 768px) {
     display: flex;
     flex-direction: row;
@@ -85,9 +124,10 @@ export const Container = styled.div`
 `;
 
 export const Heroheading = styled.div`
-  @media only screen and (max-width: 768px) {
+  /* @media only screen and (max-width: 768px) { */
+  @media (min-width: 481px) and (max-width: 767px) {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-content: center;
 
