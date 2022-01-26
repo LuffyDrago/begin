@@ -4,7 +4,7 @@ import React, { Component } from "react";
 // import close from "../images/icon-close.svg";
 import { MenuItems } from "./MenuItems";
 
-class Navbar extends Component {
+class NavbarTwo extends Component {
   state = { clicked: false };
 
   handleClick = () => {
@@ -19,18 +19,18 @@ class Navbar extends Component {
         <nav className="NavbarItems">
           <h1 className="navbar-logo">
             {/* <img src={logo} alt="easy logo" /> */}
-            Victor
+            VictorMwangi.
           </h1>
           <div className="menu-icon" onClick={this.handleClick}>
             {/* <i
-              className={
-                this.state.clicked ? (
-                  <img src={close} alt="close" />
-                ) : (
-                  <img src={open} alt="hamburger" />
-                )
-              }
-            ></i> */}
+                className={
+                  this.state.clicked ? (
+                    <img src={close} alt="close" />
+                  ) : (
+                    <img src={open} alt="hamburger" />
+                  )
+                }
+              ></i> */}
 
             <i
               className={
@@ -51,13 +51,13 @@ class Navbar extends Component {
               );
             })}
           </ul>
-          <a className="btn" href="#/">
+          {/* <a className="btn" href="#/">
             Request Invite
-          </a>
+          </a> */}
         </nav>
       </header>
     );
   }
 }
 
-export default Navbar;
+export default NavbarTwo;
