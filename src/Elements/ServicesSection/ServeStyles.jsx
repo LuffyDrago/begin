@@ -43,6 +43,47 @@ export const Heroheading = styled.div`
   }
 `;
 export const Container = styled.div`
+  /* MEDIA QUERIES DESKTOP FIRST */
+  @media (min-width: 320px) and (max-width: 480px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+    .heroleft p {
+      /* font-family: "pp-telegraf", sans-serif; */
+      font-family: "Roboto", sans-serif;
+      font-size: 45px;
+      line-height: 83px;
+      font-weight: 200;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      display: block ruby;
+    }
+
+    /* .heroright {
+      width: 100% !important;
+    } */
+    .heroright {
+      width: 100% !important;
+    }
+    .heroleft {
+      width: 100% !important;
+    }
+  }
+
+  @media (min-width: 481px) and (max-width: 767px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    .heroright {
+      width: 100% !important;
+    }
+    .heroleft {
+      width: 100% !important;
+    }
+  }
   width: 90%;
   object-fit: contain;
   margin-right: auto;
@@ -58,12 +99,48 @@ export const Container = styled.div`
       margin-top: 5em;
       line-height: 40px;
       letter-spacing: 0.18px;
-      font-size: 22px;
+      font-size: 18px;
     }
   }
 `;
 
 export const ContainerTwo = styled.div`
+  /* MEDIA QUERIES DESKTOP FIRST */
+  @media (min-width: 320px) and (max-width: 480px) {
+    width: 100%;
+    .twosides {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+    }
+    .firstside {
+      width: 100% !important;
+      font-size: 35px !important;
+    }
+    .lastside {
+      width: 100% !important;
+      margin-top: 20px;
+    }
+  }
+
+  @media (min-width: 481px) and (max-width: 767px) {
+    .twosides {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+    }
+    .firstside {
+      width: 100% !important;
+      font-size: 35px !important;
+    }
+    .lastside {
+      width: 100% !important;
+      margin-top: 20px;
+    }
+  }
+
   width: 90%;
   object-fit: contain;
   margin-right: auto;
@@ -96,12 +173,47 @@ export const ContainerTwo = styled.div`
       /* margin-top: 5em; */
       line-height: 40px;
       letter-spacing: 0.18px;
-      font-size: 22px;
+      font-size: 18px;
     }
   }
 `;
 
 export const ContainerThree = styled.div`
+  /* MEDIA QUERIES DESKTOP FIRST */
+  @media (min-width: 320px) and (max-width: 480px) {
+    width: 100%;
+    .twosides {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+    }
+    .firstside {
+      width: 100% !important;
+      font-size: 35px !important;
+    }
+    .lastside {
+      width: 100% !important;
+      margin-top: 20px;
+    }
+  }
+
+  @media (min-width: 481px) and (max-width: 767px) {
+    .twosides {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+    }
+    .firstside {
+      width: 100% !important;
+      font-size: 35px !important;
+    }
+    .lastside {
+      width: 100% !important;
+      margin-top: 20px;
+    }
+  }
   width: 90%;
   object-fit: contain;
   margin-right: auto;
@@ -134,12 +246,47 @@ export const ContainerThree = styled.div`
       /* margin-top: 5em; */
       line-height: 40px;
       letter-spacing: 0.18px;
-      font-size: 22px;
+      font-size: 18px;
     }
   }
 `;
 
 export const ContainerFive = styled.div`
+  /* MEDIA QUERIES DESKTOP FIRST */
+  @media (min-width: 320px) and (max-width: 480px) {
+    width: 100%;
+    .twosides {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+    }
+    .firstside {
+      width: 100% !important;
+      font-size: 35px !important;
+    }
+    .lastside {
+      width: 100% !important;
+      margin-top: 20px;
+    }
+  }
+
+  @media (min-width: 481px) and (max-width: 767px) {
+    .twosides {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+    }
+    .firstside {
+      width: 100% !important;
+      font-size: 35px !important;
+    }
+    .lastside {
+      width: 100% !important;
+      margin-top: 20px;
+    }
+  }
   width: 90%;
   object-fit: contain;
   margin-right: auto;
@@ -172,12 +319,51 @@ export const ContainerFive = styled.div`
       /* margin-top: 5em; */
       line-height: 40px;
       letter-spacing: 0.18px;
-      font-size: 22px;
+      font-size: 18px;
     }
   }
 `;
 
 export const ContainerSix = styled.div`
+  /* MEDIA QUERIES DESKTOP FIRST */
+  @media (min-width: 320px) and (max-width: 480px) {
+    width: 100%;
+    .twosides {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+    }
+    .firstside {
+      width: 100% !important;
+      font-size: 35px !important;
+    }
+    .lastside {
+      width: 100% !important;
+      margin-top: 20px;
+    }
+    .lastsidetext {
+      font-size: 18px;
+    }
+  }
+
+  @media (min-width: 481px) and (max-width: 767px) {
+    .twosides {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+    }
+    .firstside {
+      width: 100% !important;
+      font-size: 35px !important;
+    }
+    .lastside {
+      width: 100% !important;
+      margin-top: 20px;
+      font-size: 18px;
+    }
+  }
   width: 90%;
   object-fit: contain;
   margin-right: auto;
@@ -216,6 +402,41 @@ export const ContainerSix = styled.div`
 `;
 
 export const ContainerSeven = styled.div`
+  /* MEDIA QUERIES DESKTOP FIRST */
+  @media (min-width: 320px) and (max-width: 480px) {
+    width: 100%;
+    .twosides {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+    }
+    .firstside {
+      width: 100% !important;
+      font-size: 35px !important;
+    }
+    .lastside {
+      width: 100% !important;
+      margin-top: 20px;
+    }
+  }
+
+  @media (min-width: 481px) and (max-width: 767px) {
+    .twosides {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+    }
+    .firstside {
+      width: 100% !important;
+      font-size: 35px !important;
+    }
+    .lastside {
+      width: 100% !important;
+      margin-top: 20px;
+    }
+  }
   width: 90%;
   object-fit: contain;
   margin-right: auto;

@@ -70,6 +70,24 @@ export const Container = styled.div`
       align-items: center;
     }
   }
+
+  @media (min-width: 481px) and (max-width: 767px) {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-content: center;
+    .heroright {
+      width: 100% !important;
+    }
+    .heroleft {
+      width: 100% !important;
+    }
+
+    .heroleft p {
+      font-size: 35px;
+    }
+  }
   width: 90%;
   object-fit: contain;
   margin-right: auto;

@@ -41,7 +41,7 @@ export const Wrapper = styled.div`
     .heroleft p {
       /* font-family: "pp-telegraf", sans-serif; */
       font-family: "Roboto", sans-serif;
-      font-size: 25px;
+      font-size: 35px;
       line-height: 83px;
       font-weight: 200;
       margin-top: 20px;
@@ -86,7 +86,6 @@ export const Container = styled.div`
   @media (min-width: 481px) and (max-width: 767px) {
     display: flex;
     flex-direction: column;
-
     justify-content: center;
     align-content: center;
     .heroleft {
@@ -97,6 +96,7 @@ export const Container = styled.div`
       width: 100%;
     }
   }
+
   /* @media only screen and (max-width: 768px) {
     display: flex;
     flex-direction: row;
