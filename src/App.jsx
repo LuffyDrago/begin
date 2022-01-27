@@ -24,9 +24,9 @@ const App = () => {
           <Portfolio />
         </Route>
 
-        <Route path="/services" exact>
-          <MyServices />
-        </Route>
+        <Route path="/services" component={MyServices} />
+        {/* <MyServices /> */}
+        {/* </Route> */}
 
         <Route path="/about" exact>
           <About />
