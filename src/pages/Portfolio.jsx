@@ -18,7 +18,7 @@ const Portfolio = () => {
 };
 
 const Colorbackground = styled.div`
-  min-height: 100vh;
+  /* min-height: 100vh; */
   border-bottom-left-radius: 100px;
   border-bottom-right-radius: 100px;
   background-color: #e3eaf4;

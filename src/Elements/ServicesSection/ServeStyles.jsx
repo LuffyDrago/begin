@@ -128,7 +128,9 @@ export const ContainerTwo = styled.div`
     .lastside {
       width: 100% !important;
       margin-top: 20px;
-      font-size: 18px !important;
+      .lastsidetext {
+        font-size: 18px !important;
+      }
     }
   }
 

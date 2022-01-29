@@ -12,7 +12,7 @@ export const Wrapper = styled.div`
     flex-direction: column;
     justify-content: center;
     align-content: center;
-
+    padding: 0px 32px 100px;
     .heroleft p {
       /* font-family: "pp-telegraf", sans-serif; */
       font-family: "Roboto", sans-serif;
