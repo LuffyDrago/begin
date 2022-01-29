@@ -70,6 +70,10 @@ export const Container = styled.div`
     .heroleft {
       width: 100% !important;
     }
+
+    .HeroRightText {
+      font-size: 18px !important;
+    }
   }
 
   @media (min-width: 481px) and (max-width: 767px) {
@@ -82,6 +86,9 @@ export const Container = styled.div`
     }
     .heroleft {
       width: 100% !important;
+    }
+    .HeroRightText {
+      font-size: 18px !important;
     }
   }
   width: 90%;
@@ -99,7 +106,7 @@ export const Container = styled.div`
       margin-top: 5em;
       line-height: 40px;
       letter-spacing: 0.18px;
-      font-size: 18px;
+      font-size: 22px;
     }
   }
 `;
@@ -121,6 +128,7 @@ export const ContainerTwo = styled.div`
     .lastside {
       width: 100% !important;
       margin-top: 20px;
+      font-size: 18px !important;
     }
   }
 
@@ -138,6 +146,9 @@ export const ContainerTwo = styled.div`
     .lastside {
       width: 100% !important;
       margin-top: 20px;
+      .lastsidetext {
+        font-size: 18px !important;
+      }
     }
   }
 
@@ -173,7 +184,7 @@ export const ContainerTwo = styled.div`
       /* margin-top: 5em; */
       line-height: 40px;
       letter-spacing: 0.18px;
-      font-size: 18px;
+      font-size: 22px;
     }
   }
 `;
@@ -195,6 +206,9 @@ export const ContainerThree = styled.div`
     .lastside {
       width: 100% !important;
       margin-top: 20px;
+      .lastsidetext {
+        font-size: 18px !important;
+      }
     }
   }
 
@@ -212,6 +226,9 @@ export const ContainerThree = styled.div`
     .lastside {
       width: 100% !important;
       margin-top: 20px;
+      .lastsidetext {
+        font-size: 18px !important;
+      }
     }
   }
   width: 90%;
@@ -246,7 +263,7 @@ export const ContainerThree = styled.div`
       /* margin-top: 5em; */
       line-height: 40px;
       letter-spacing: 0.18px;
-      font-size: 18px;
+      font-size: 22px;
     }
   }
 `;
@@ -268,6 +285,9 @@ export const ContainerFive = styled.div`
     .lastside {
       width: 100% !important;
       margin-top: 20px;
+      .lastsidetext {
+        font-size: 18px !important;
+      }
     }
   }
 
@@ -285,6 +305,9 @@ export const ContainerFive = styled.div`
     .lastside {
       width: 100% !important;
       margin-top: 20px;
+      .lastsidetext {
+        font-size: 18px !important;
+      }
     }
   }
   width: 90%;
@@ -319,7 +342,7 @@ export const ContainerFive = styled.div`
       /* margin-top: 5em; */
       line-height: 40px;
       letter-spacing: 0.18px;
-      font-size: 18px;
+      font-size: 22px;
     }
   }
 `;
@@ -341,9 +364,9 @@ export const ContainerSix = styled.div`
     .lastside {
       width: 100% !important;
       margin-top: 20px;
-    }
-    .lastsidetext {
-      font-size: 18px;
+      .lastsidetext {
+        font-size: 18px !important;
+      }
     }
   }
 
@@ -361,7 +384,9 @@ export const ContainerSix = styled.div`
     .lastside {
       width: 100% !important;
       margin-top: 20px;
-      font-size: 18px;
+      .lastsidetext {
+        font-size: 18px !important;
+      }
     }
   }
   width: 90%;
@@ -418,6 +443,9 @@ export const ContainerSeven = styled.div`
     .lastside {
       width: 100% !important;
       margin-top: 20px;
+      .lastsidetext {
+        font-size: 18px !important;
+      }
     }
   }
 
@@ -435,6 +463,9 @@ export const ContainerSeven = styled.div`
     .lastside {
       width: 100% !important;
       margin-top: 20px;
+      .lastsidetext {
+        font-size: 18px !important;
+      }
     }
   }
   width: 90%;
