@@ -2,8 +2,14 @@ import * as styles from "./Footerstyles";
 import { Link } from "react-router-dom";
 import Lottie from "react-lottie";
 import animationData from "../lotties/footer.json";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export const FooterOne = () => {
+  AOS.init({
+    duration: 2000, // values from 0 to 3000, with step 50ms
+    easing: "ease", // default easing for AOS animations
+  });
   const defaultOptions = {
     loop: true,
     autoplay: true,
@@ -14,7 +20,7 @@ export const FooterOne = () => {
     <styles.MainFooter>
       <styles.InnerFooter>
         <styles.Container>
-          <div className="heroleft">
+          <div className="heroleft" data-aos="fade-left">
             <styles.Heroheading>
               <p>Hand-crafted design exclusively created for your project</p>
             </styles.Heroheading>
@@ -44,7 +50,7 @@ export const FooterOne = () => {
           >
             Github
           </Link>
-          / <a href="mailto:victor.muchemi.m@gmail.com">Let’s Connect</a> /
+          /<a href="mailto:victor.muchemi.m@gmail.com">Let’s Connect</a>/
           <Link
             to={{ pathname: " https://dribbble.com/Blackzoro" }}
             target="_blank"

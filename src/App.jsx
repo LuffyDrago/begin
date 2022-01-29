@@ -1,4 +1,6 @@
 import React from "react";
+// import AOS from "aos";
+// import "aos/dist/aos.css";
 
 //Component
 //import Navbar from "./Component/Navbar/Nav";
@@ -16,6 +18,7 @@ import Portfolio from "./pages/Portfolio";
 import { Switch, Route } from "react-router-dom";
 
 const App = () => {
+  // Aos.init();
   return (
     <>
       <Navbar />
