@@ -1,7 +1,6 @@
 import * as styles from "./Secondstyles";
 import Lottie from "react-lottie";
 import animationData from "../lotties/starmoon.json";
-import { Link } from "react-router-dom";
 import LotFooter from "./LotFooter";
 import AbsoluteFooter from "../FirstFooter/AbsoluteFooter";
 
@@ -23,7 +22,7 @@ const FooterTwo = () => {
               <p>Hand-crafted design exclusively created for your project</p>
             </styles.Heroheading>
             <div className="hero-smalltext">
-              <Link to="/contact">Let’s Connect</Link>
+              <a href="mailto:victor.muchemi.m@gmail.com">Let’s Connect</a>
             </div>
           </div>
 

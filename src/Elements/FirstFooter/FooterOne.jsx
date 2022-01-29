@@ -19,7 +19,7 @@ export const FooterOne = () => {
               <p>Hand-crafted design exclusively created for your project</p>
             </styles.Heroheading>
             <div className="hero-smalltext">
-              <Link to="/contact">Let’s Connect</Link>
+              <a href="mailto:victor.muchemi.m@gmail.com">Let’s Connect</a>
             </div>
           </div>
 
@@ -44,7 +44,7 @@ export const FooterOne = () => {
           >
             Github
           </Link>
-          /<Link to="/contact">Let’s Connect</Link> /
+          / <a href="mailto:victor.muchemi.m@gmail.com">Let’s Connect</a> /
           <Link
             to={{ pathname: " https://dribbble.com/Blackzoro" }}
             target="_blank"

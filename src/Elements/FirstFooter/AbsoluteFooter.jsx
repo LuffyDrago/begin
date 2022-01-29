@@ -12,7 +12,7 @@ const AbsoluteFooter = () => {
           >
             Github
           </Link>
-          /<Link to="/contact">Let’s Connect</Link> /
+          / <a href="mailto:victor.muchemi.m@gmail.com">Let’s Connect</a> /
           <Link
             to={{ pathname: " https://dribbble.com/Blackzoro" }}
             target="_blank"

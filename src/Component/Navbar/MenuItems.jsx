@@ -21,7 +21,7 @@ export const MenuItems = [
   },
   {
     title: "Contact Us",
-    url: "#",
+    url: "mailto:victor.muchemi.m@gmail.com",
     cName: "nav-links",
   },
 ];
