@@ -122,9 +122,6 @@ export const Heroheading = styled.div`
 `;
 
 export const SmallFooter = styled.div`
-  @media (min-width: 320px) and (max-width: 480px) {
-    padding: 1rem;
-  }
   font-family: "Roboto", sans-serif;
   width: 100%;
   height: 135px;

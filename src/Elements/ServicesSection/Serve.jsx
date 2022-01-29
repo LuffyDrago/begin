@@ -30,12 +30,15 @@ const Serve = () => {
             <div className="firstside">UX Design</div>
             <div className="lastside">
               <div className="lastsidetext">
-                However, I wanted to also give a shot at working in a company,
-                so I accepted an offer to join a Canadian company ‘’Katipult’’,
-                as an UI/UX designer. The whole cooperative approach to design
-                is quite fragmentary, with not enough room for self-expression
-                and progress, so I decided to dedicate my work fully to
-                freelancin
+                I treat user experience as the alpha and the omega, it is of the
+                top of importance of any product, either digital or physical.
+                The process itself is connected with several important factors:
+                how to please a customer, how to please all the market
+                requirements, and how to create a product which will be desired
+                by everyone. I accomplish all of these prerequisites through a
+                number of different methods, and some of them are: Users survey,
+                Interviews, POV method, How we might, Ideate sessions,
+                Prototyping, Usability testing, Wireframes, etc...
               </div>
               <br />
             </div>
