@@ -141,6 +141,9 @@ export const SmallFooter = styled.div`
 `;
 
 export const LastFooter = styled.div`
+  @media (min-width: 320px) and (max-width: 480px) {
+    padding: 1rem;
+  }
   color: #fff;
   display: flex;
   justify-content: center;
