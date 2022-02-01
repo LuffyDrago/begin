@@ -22,9 +22,10 @@ const PersonalDetails = () => {
               data-aos="fade-left"
               data-aos-duration="1500"
             >
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt
-              expedita tempora harum qui cupiditate ullam dolores libero dolorem
-              sapiente odit?
+              A passionate Junior Software Developer with an undergraduate
+              degree in Bachelor of Science in Software Development from KCA
+              University (Completed coursework in December 2021) - Awaiting
+              graduation.
             </div>
           </div>
         </styles.Container>
@@ -38,9 +39,11 @@ const PersonalDetails = () => {
             <div className="firstside"></div>
             <div className="lastside">
               <div className="lastsidetext" data-aos="fade-left">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem
-                similique impedit reprehenderit ab nemo temporibus, tenetur
-                autem ducimus. Consequatur, eligendi?
+                I have gained experience through personal projects and
+                internships where I have learnt hands-on coding, software
+                development processes, programming frameworks( ReactJS), user
+                interface design, testing and debugging, working and
+                collaborating with teams.
               </div>
             </div>
           </div>
@@ -51,9 +54,9 @@ const PersonalDetails = () => {
             <div className="firstside"></div>
             <div className="lastside">
               <div className="lastsidetext" data-aos="fade-right">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Eveniet distinctio voluptatem officiis suscipit molestias nisi,
-                vitae eligendi praesentium. Placeat, pariatur?
+                I am excited to learn and grow in software development and
+                currently looking for a role as a Junior Software Developer or
+                Internship and available to start in February 2022.
               </div>
             </div>
           </div>
@@ -64,9 +67,9 @@ const PersonalDetails = () => {
             <div className="firstside"></div>
             <div className="lastside">
               <div className="lastsidetext" data-aos="fade-left">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius,
-                rerum nobis! Cumque iure reiciendis nemo sit itaque praesentium
-                veritatis eligendi.
+                “Don't worry about people trying to steal your design work.
+                Worry about the day that they stop.” — Jeffery Zeldman,
+                Developer, Designer, and co-founder of the Web Standards Project
               </div>
 
               <br />
