@@ -1,7 +1,6 @@
 # Portfolio🥂 - New Beginnings✨
 I built this website to showcase some of my skills!
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/5a650d7b-4f5f-4414-9006-34f8c33506dd/deploy-status)](https://app.netlify.com/sites/hopeful-lovelace-6b7882/deploys)
 
 ## Welcome! 👋
 
