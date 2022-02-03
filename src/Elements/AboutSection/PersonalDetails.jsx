@@ -1,7 +1,6 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
 import * as styles from "./PersonalDetailStyle";
-import { Link } from "react-router-dom";
 const PersonalDetails = () => {
   AOS.init({
     duration: 2000, // values from 0 to 3000, with step 50ms
@@ -75,9 +74,14 @@ const PersonalDetails = () => {
               <br />
               <br />
               <br />
-              <Link to="/" className="cvlink">
+
+              {/* <Link to="/" className="cvlink">
                 Open Victor Mwangi CV
-              </Link>
+              </Link> */}
+              <a href="https://drive.google.com/file/d/1nKT3qUxh7VJIODdn30GZTXkAPMgt0vX1/view?usp=sharing" className="cvlink">
+                {" "}
+                Open Victor Mwangi CV
+              </a>
             </div>
           </div>
         </styles.ContainerFour>
