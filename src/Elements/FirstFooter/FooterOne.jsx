@@ -45,7 +45,7 @@ export const FooterOne = () => {
       <styles.SmallFooter>
         <styles.LastFooter>
           <Link
-            to={{ pathname: "https://github.com/LuffyDrago" }}
+            to={{ pathname: "https://github.com/victor-mwangi" }}
             target="_blank"
           >
             Github
