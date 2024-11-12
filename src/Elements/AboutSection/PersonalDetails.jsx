@@ -21,10 +21,10 @@ const PersonalDetails = () => {
               data-aos="fade-left"
               data-aos-duration="1500"
             >
-              A passionate Junior Software Developer with an undergraduate
-              degree in Bachelor of Science in Software Development from KCA
-              University (Completed coursework in December 2021) - Awaiting
-              graduation.
+             A Software Engineer with experience in cloud computing, virtualization and
+             container technologies, automation of development workflow and deployments
+             through CI/CD. Also experienced in designing, implementing, documenting, and
+             troubleshooting cloud infrastructure for applications.
             </div>
           </div>
         </styles.Container>
@@ -53,9 +53,9 @@ const PersonalDetails = () => {
             <div className="firstside"></div>
             <div className="lastside">
               <div className="lastsidetext" data-aos="fade-right">
-                I am excited to learn and grow in software development and
-                currently looking for a role as a Junior Software Developer or
-                Internship and available to start in February 2022.
+                I like exploring and applying the new and exciting concepts learnt
+                in my side projects which allows me to push my own standards 
+                and boundaries of the possibilities in software development.
               </div>
             </div>
           </div>
@@ -78,7 +78,7 @@ const PersonalDetails = () => {
               {/* <Link to="/" className="cvlink">
                 Open Victor Mwangi CV
               </Link> */}
-              <a href="https://drive.google.com/file/d/1nKT3qUxh7VJIODdn30GZTXkAPMgt0vX1/view?usp=sharing" className="cvlink">
+              <a href="" className="cvlink">
                 {" "}
                 Open Victor Mwangi CV
               </a>
