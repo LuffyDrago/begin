@@ -78,7 +78,7 @@ const PersonalDetails = () => {
               {/* <Link to="/" className="cvlink">
                 Open Victor Mwangi CV
               </Link> */}
-              <a href="" className="cvlink">
+              <a href="https://drive.google.com/file/d/1vrew_ny68ot0MlLmEBGurNjifDM5No3p/view?usp=sharing" className="cvlink">
                 {" "}
                 Open Victor Mwangi CV
               </a>
